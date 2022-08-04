@@ -4,25 +4,16 @@
   "info": {
     "singularName": "technology",
     "pluralName": "technologies",
-    "displayName": "Technology"
+    "displayName": "Stack",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "technologyName": {
+    "stack": {
       "type": "string"
-    },
-    "technologyIcon": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }

@@ -18,23 +18,9 @@
     "description": {
       "type": "text"
     },
-    "content": {
-      "type": "richtext"
-    },
     "thumbnail": {
       "type": "media",
       "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "carouselImages": {
-      "type": "media",
-      "multiple": true,
       "required": false,
       "allowedTypes": [
         "images",
@@ -54,7 +40,13 @@
       "relation": "oneToOne",
       "target": "api::category.category"
     },
-    "technologies": {
+    "stars": {
+      "type": "integer"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "stacks": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::technology.technology"
